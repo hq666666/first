@@ -1,0 +1,5 @@
+#Ӧ�ó���Ķ˿�
+spring:
+   #激活配置文件
+   profiles:
+     active: dev

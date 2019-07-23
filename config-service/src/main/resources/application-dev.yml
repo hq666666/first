@@ -1,0 +1,14 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: config-sever
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hq666666/first.git
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
